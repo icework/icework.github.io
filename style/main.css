@@ -19,15 +19,16 @@ body {
   top: 50%; }
 
 .title {
+  white-space: nowrap;
   font-weight: 800;
   color: transparent;
-  font-size: 280px;
+  font-size: 220px;
   background: url("../image/galaxy.jpg") repeat;
   background-position: 40% 50%;
   -webkit-background-clip: text;
   position: relative;
   text-align: center;
-  line-height: 350px;
+  line-height: 290px;
   letter-spacing: -8px; }
 
 /*# sourceMappingURL=main.css.map */

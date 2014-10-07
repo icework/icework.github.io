@@ -24,6 +24,7 @@ body{
   @include center();
 }
 .title{
+  white-space: nowrap;
   font-weight: 800;
   color: transparent;
   font-size:220px;
