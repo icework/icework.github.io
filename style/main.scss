@@ -20,10 +20,13 @@ body{
   font-family: sans-serif;
 }
 .container{
+  width:100%;
   position:absolute;
   @include center();
 }
 .title{
+  margin: auto;
+  width:800px;
   white-space: nowrap;
   font-weight: 800;
   color: transparent;
