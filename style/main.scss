@@ -6,17 +6,28 @@
     top:50%;
 }
 
+nav {
+  position:absolute;
+  bottom: 0;
+  ul{
+    height: 80px;
+  }
+  li{
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    height: 100%;
+    list-style: none;
+  }
+}
 
 html{
   width:100%;
   height: 100%;
 }
 body{
-  background: -webkit-linear-gradient(rgb(235, 236, 231), rgb(255, 255, 255));
-  background: linear-gradient(rgb(235, 236, 231), rgb(255, 255, 255));
-  margin: 0;
+  background-color: white;
   width: 100%;
-  height: 100%;
   font-family: sans-serif;
 }
 .container{
